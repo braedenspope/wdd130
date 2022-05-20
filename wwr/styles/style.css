@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 body {
     background-color: #87bcde;
+    font-family: 'Fjalla One';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -15,6 +26,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -26,12 +38,28 @@ nav a:hover {
     background-color: #87bcde;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover, .join:hover {
     background-color: #2d4654;
     color: white;
     
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 #hero-msg h1 {
@@ -56,7 +84,10 @@ main section {
 }
 
 .msg {
-    background-color: #87bcde;
+    background-color: #2d4654;
+    font-family: 'Bebas Neue';
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -65,10 +96,18 @@ main section {
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 10px;
 }
 
 footer {
     background-color: #87bcde;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer h3 {
@@ -94,8 +133,19 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+.home-title {
+    font-size: 2em;
+    font-family: 'Bebas Neue';
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
